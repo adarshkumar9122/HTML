@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Regiestration</title>
+</head>
+<body>
+    <h2>Event Regiestration</h2>
+ <form>
+        <label for="name">name:</label>
+        <input type="text" id="name" name="=name">
+         <br>
+         </br>
+
+        <label for="Email id">email id:</label>
+        <input type="email" id="Email id" name="email id">
+         <br>
+         </br>
+
+        <label for="Phone number">Phone number:</label>
+        <input type="tel" id="Phone number" name="Phone number">
+        
+          <br>
+          </br>
+
+        <label for="occupationType">occupation:</label>
+            <!-- dropdown menu ke liye select tag ka use karte hai --> 
+        <select name="occupationType" id="occupationType"> 
+            <!-- option ke option tag ka use karte hai  -->
+            <option value="student">student</option>
+            <option value="professional">professiona</option>
+            <option value="other">other</option>
+        </select>
+          <br>
+          </br>
+        <!-- groping of element ke liye fieldset tag ka use krta hoo and or oos groping ke heading ya title ke liye 
+        legend tag ka use karte hai. -->
+        <fieldset>
+            <legend>Topic of Interest</legend>
+
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" name="checkbox" id="checkbox1">
+
+            <label for="checkbox2">HTML</label>
+            <input type="checkbox" name="checkbox" id="checkbox2">
+
+            <label for="checkbox3">HTML</label>
+            <input type="checkbox" name="checkbox" id="checkbox3">
+        </fieldset>
+
+        <label for="textarea">comment</label>
+        <br>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10"></textarea>
+        
+        <input type="submit" value="Regiester">
+        
+
+
+    </form>
+   
+
+</body>
+</html>
